@@ -384,4 +384,30 @@ if predict:
 
         st.markdown("---")
 
-st.caption("Built using Streamlit and K-Nearest Neighbors Regression")
+st.markdown("---")
+
+c1, c2, c3 = st.columns([2, 1, 1])
+
+with c1:
+    st.markdown(
+        "<div style='text-align:center; color:#9CA3AF; font-size:0.8rem;'>"
+        "Built using Streamlit and K-Nearest Neighbors Regression"
+        "</div>",
+        unsafe_allow_html=True
+    )
+
+with c2:
+    st.markdown(
+        "<div style='text-align:center;'>"
+        "<a href='https://www.linkedin.com/in/prem-aditya-dhulipala-627a43268' target='_blank'>🔗 LinkedIn</a>"
+        "</div>",
+        unsafe_allow_html=True
+    )
+
+with c3:
+    st.markdown(
+        "<div style='text-align:center;'>"
+        "<a href='https://github.com/premaditya' target='_blank'>💻 GitHub</a>"
+        "</div>",
+        unsafe_allow_html=True
+    )
